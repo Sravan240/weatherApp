@@ -19,7 +19,7 @@ function SearchBar({ onSearch }) {
         value={city}
         onChange={(e) => setCity(e.target.value)}
       />
-      <button type="submit">search</button>
+      <button type="submit">Search</button>
     </form>
   );
 }
